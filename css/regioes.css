@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  background-color: #1e824c;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header > h1 {
+  font-size: 50px;
+  font-variant: small-caps;
+}
+
+header > h2 {
+  font-size: 20px;
+  font-variant: small-caps;
+}
+
+.conteudo {
+  margin: 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.regiao {
+  padding: 20px;
+  position: relative;
+}
+div.regiao > h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgba(200, 247, 197, 0.8);
+  color: rgb(56, 54, 54);
+  text-align: center;
+  font-size: 30px;
+  padding: 40px 0px;
+}
+
+#regiao-norte {
+  background-image: url(../imagens/norte.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  height: 150px;
+}
+
+#regiao-nordeste {
+  background-image: url(../imagens/nordeste.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+}
+
+#regiao-centro-oeste {
+  background-image: url(../imagens/centro-oeste.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+}
+
+#regiao-sudeste {
+  background-image: url(../imagens/sudeste.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+}
+
+#regiao-sul {
+  background-image: url(../imagens/sudeste.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  background-color: #1e824c;
+  padding: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
